@@ -6,14 +6,14 @@
     <title>Elisabeth's Login UI Project</title>
     <link rel="stylesheet" href="login-styles.css">
 </head>
-<body>
+<body class="body">
     <div class="container">
-        <form class="form">
-            <h2 id="signInHeading">Sign In</h2>
-            <input type="text" placeholder="Username" id="Username" required> </input>
-            <input type="password" placeholder="Password" id="Password" required> </input>
+        <form class="form" action="https://www.cats.com" method="post">
+            <h2 id="signInHeading" style="font-size: 4vw;">Sign In</h2>
+            <div class="input-box"><input type="text" placeholder="Username" id="username" required> </input></div>
+           <div class="input-box"> <input type="password" placeholder="Password" id="Password" minlength="8" required> </input></div>
             <button type="submit" id="submit-button">Sign In</button>
         </form>
     </div>
-</body>b                                      
+</body>                               
 </html>

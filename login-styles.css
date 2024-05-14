@@ -1,0 +1,73 @@
+.body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+border: solid gray 1px;
+border-radius: 15px;
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+min-width: 100 px;
+width: 50%;
+height: 60%;    
+min-height: 250px;
+background-color: rgb(233, 122, 202);
+opacity: 50%;
+gap: 20px;
+
+
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.form{
+   display: flex;  
+   flex-direction: column;
+   justify-content: center;
+   align-items: space-evenly;
+
+}
+
+.input-box{
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#signInHeading {
+    
+display: flex;
+
+}
+#Username {
+    display: flex;
+    font-weight: bold;
+
+}
+#Password {
+    display: flex;
+font-weight: bold;
+}
+#submit-button {
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(0, 98, 255);
+    border-radius: 10px;
+    width: 100%;
+
+}
