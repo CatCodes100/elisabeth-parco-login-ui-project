@@ -47,14 +47,10 @@ opacity: 50%;
 
 
 .input-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: none;
+    
     outline: none;
     border-bottom: 1px solid #ccc;
     
-
 }
 
 #username {
