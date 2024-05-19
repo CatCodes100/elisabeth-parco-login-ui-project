@@ -37,6 +37,8 @@ opacity: 50%;
     align-items: center;
     gap: 15px;
    
+
+   
 }
 #sign-in-heading{
     font-size: 250%;
@@ -46,20 +48,16 @@ opacity: 50%;
 }
 
 
-.input-box{
-    
-    outline: none;
+
+input{
+    border: 0;
+    outline: 0;
     border-bottom: 1px solid #ccc;
+    font-weight: bold;
+
     
 }
 
-#username {
-    font-weight: bold;
-
-}
-#password {
-    font-weight: bold;
-}
 #submit-button {
     display: flex;;
     color: aliceblue;
